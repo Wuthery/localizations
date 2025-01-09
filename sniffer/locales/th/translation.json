@@ -42,5 +42,5 @@
     "app.achievements": "Achievements",
     "app.gacha": "Gacha",
     "app.debug-menu": "Debug Menu",
-    "app.enable-logging": "Enable Logging (Requires Restart)"
+    "app.enable-logging": "Enable Logging (Requires App Restart)"
 }
