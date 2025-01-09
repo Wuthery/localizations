@@ -12,10 +12,10 @@ files:
       - ja
       - ko
       - de
-      - es
+      - es-ES
       - fr
-      - zh-Hant
-      - zh-Hans
+      - zh-TW
+      - zh-CN
 pull_request_title: "chore(l10n): Sync with Crowdin"
 commit_message: "chore(l10n): Update %language% translations"
 append_commit_message: false
