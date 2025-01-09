@@ -1,0 +1,7 @@
+files:
+  - source: /api/locales/en/translation.json
+    translation: /api/locales/%osx_locale%/translation.json
+  - source: /website/locales/en/translation.json
+    translation: /website/locales/%osx_locale%/translation.json
+  - source: /sniffer/locales/en/translation.json
+    translation: /sniffer/locales/%osx_locale%/translation.json
