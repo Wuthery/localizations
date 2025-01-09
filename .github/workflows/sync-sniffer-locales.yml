@@ -1,0 +1,44 @@
+name: Sync Sniffer Locales to Nekolab Repository
+
+on:
+  push:
+    paths:
+      - 'sniffer/**'
+
+jobs:
+  sync-sniffer-locales:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Prepare locales for sync
+      run: |
+        mkdir -p gh_locales
+        cp -r sniffer/locales/* gh_locales/
+
+    - name: Push to Nekolab
+      env:
+        NEKOLAB_USERNAME: ${{ secrets.NEKOLAB_USERNAME }}
+        NEKOLAB_EMAIL: ${{ secrets.NEKOLAB_EMAIL }}
+        NEKOLAB_TOKEN: ${{ secrets.NEKOLAB_TOKEN }}
+        NEKOLAB_URL: ${{ secrets.NEKOLAB_URL }}
+      run: |
+        git config --global user.name "${{ env.NEKOLAB_USERNAME }}"
+        git config --global user.email "${{ env.NEKOLAB_EMAIL }}"
+
+        git clone https://${{ env.NEKOLAB_USERNAME }}:${{ env.NEKOLAB_TOKEN }}@${{ env.NEKOLAB_URL }} nekolab_repo
+
+        rm -rf nekolab_repo/assets/locales/*
+        cp -r gh_locales/* nekolab_repo/assets/locales/
+
+        cd nekolab_repo
+        git add .
+        if git diff-index --quiet HEAD; then
+          echo "No changes to commit"
+          exit 0
+        else
+          git commit -m "chore(l10n) Sync locales from GitHub/Crowdin"
+          git push https://${{ env.NEKOLAB_USERNAME }}:${{ env.NEKOLAB_TOKEN }}@${{ env.NEKOLAB_URL }}
+        fi
