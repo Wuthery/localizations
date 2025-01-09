@@ -16,7 +16,7 @@ The following languages are supported by our projects:
 - Portuguese (pt)
 - Russian (ru)
 - Thai (th)
-- Ukrainian (ua)
+- Ukrainian (uk)
 - Vietnamese (vi)
 - Chinese (Simplified) (zh-Hans)
 - Chinese (Traditional) (zh-Hant)
