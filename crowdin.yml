@@ -15,7 +15,6 @@
     "source": "/game/locales/en/MultiText.json",
     "translation": "/game/locales/%osx_locale%/MultiText.json",
     "excluded_target_languages": [
-      "en",
       "ja",
       "ko",
       "de",
