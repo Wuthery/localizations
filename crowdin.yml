@@ -1,21 +1,31 @@
-files:
-  - source: /api/locales/en/translation.json
-    translation: /api/locales/%osx_locale%/translation.json
-  - source: /website/locales/en/translation.json
-    translation: /website/locales/%osx_locale%/translation.json
-  - source: /sniffer/locales/en/translation.json
-    translation: /sniffer/locales/%osx_locale%/translation.json
-  - source: /game/locales/en/MultiText.json
-    translation: /game/locales/%osx_locale%/MultiText.json
-    excluded_target_languages:
-      - en
-      - ja
-      - ko
-      - de
-      - es-ES
-      - fr
-      - zh-TW
-      - zh-CN
-pull_request_title: "chore(l10n): Sync with Crowdin"
-commit_message: "chore(l10n): Update %language% translations"
-append_commit_message: false
+"files": [
+  {
+    "source": "/api/locales/en/translation.json",
+    "translation": "/api/locales/%osx_locale%/translation.json"
+  },
+  {
+    "source": "/website/locales/en/translation.json",
+    "translation": "/website/locales/%osx_locale%/translation.json"
+  },
+  {
+    "source": "/sniffer/locales/en/translation.json",
+    "translation": "/sniffer/locales/%osx_locale%/translation.json"
+  },
+  {
+    "source": "/game/locales/en/MultiText.json",
+    "translation": "/game/locales/%osx_locale%/MultiText.json",
+    "excluded_target_languages": [
+      "en",
+      "ja",
+      "ko",
+      "de",
+      "es-ES",
+      "fr",
+      "zh-TW",
+      "zh-CN"
+    ]
+  }
+]
+"pull_request_title": "chore(l10n): Sync with Crowdin"
+"commit_message": "chore(l10n): Update %language% translations"
+"append_commit_message": false
