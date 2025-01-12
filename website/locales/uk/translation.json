@@ -1,7 +1,7 @@
 {
-    "errors.404.title": "Page not found",
-    "errors.404.message": "The page you are looking for does not exist.",
-    "errors.500.title": "Internal server error",
+    "errors.404.title": "Сторінка не знайдена",
+    "errors.404.message": "Сторінку, яку ви шукаєте не існує.",
+    "errors.500.title": "Внутрішня помилка серверу",
     "errors.500.message": "Ouch! Our server is having some issues. Please try again later.",
     "errors.400.title": "Bad request",
     "errors.400.message": "The request you made is invalid.",
