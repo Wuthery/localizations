@@ -101,7 +101,7 @@
     "ui.text.drop-file-description": "Перетягніть файл імпорту, отриманий з Wuthery Sniffer, щоб швидко імпортувати всі ваші дані.",
     "ui.text.import-to-view": "Імпортуйте свої дані, щоб переглянути їх.",
     "ui.text.import-fresh": "Імпортуйте свіжі дані, щоб переглянути їх.",
-    "ui.text.footer": "© 2024 Wuthery Project. Всі права захищені.",
+    "ui.text.footer": "© {{year}} Wuthery Project. Всі права захищені.",
     "ui.text.profile-soon": "Більше інформації незабаром з'явиться разом з профілями.",
     "ui.text.search-description": "Знаходьте гравців на будь-якому сервері за їхнім UID.",
     "ui.text.search-title-1": "Підтримка серверів",
