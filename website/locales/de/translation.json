@@ -101,7 +101,7 @@
     "ui.text.drop-file-description": "Drag and drop your import file obtained from Wuthery Sniffer to quickly import all your data.",
     "ui.text.import-to-view": "Import your data to view this.",
     "ui.text.import-fresh": "Import your fresh data to view this.",
-    "ui.text.footer": "© 2024 Wuthery Project. All rights reserved.",
+    "ui.text.footer": "© {{year}} Wuthery Project. All rights reserved.",
     "ui.text.profile-soon": "More info coming soon with profiles.",
     "ui.text.search-description": "Find players on any Overseas server using their UID.",
     "ui.text.search-title-1": "Servers Support",
