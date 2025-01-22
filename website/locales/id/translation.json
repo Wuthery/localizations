@@ -110,6 +110,7 @@
     "ui.text.search-body-2": "We only display the information you can see in-game. Any other information like characters stats, weapons, echoes, etc. are not available as of now.",
     "ui.text.search-title-3": "API",
     "ui.text.search-body-3": "Wuthery does not provide public API at the moment. This will definitely change in the future, but for now, we are focusing on the website.",
+    "ui.text.search-disabled": "Player search is temporarily unavailable.",
     "ui.banner-type.1": "Featured Resonator",
     "ui.banner-type.2": "Featured Weapon",
     "ui.banner-type.3": "Standard Resonator",
