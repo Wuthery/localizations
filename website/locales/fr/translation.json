@@ -23,6 +23,8 @@
     "loader.message.invalid-uid": "The UID provided is invalid. It must be a 9-digit number starting with 5,6,7,8 or 9.",
     "loader.title.player-not-found": "Player not found",
     "loader.message.player-not-found": "Player with the provided UID does not exist.",
+    "loader.title.invalid-guide-id": "Guide not found",
+    "loader.message.invalid-guide-id": "The guide you are looking for does not exist.",
     "ui.word.birthdays": "Birthdays",
     "ui.word.all": "All",
     "ui.word.announcements": "Announcements",
@@ -52,6 +54,10 @@
     "ui.word.level": "Level",
     "ui.word.importing": "Importing...",
     "ui.word.success": "Success",
+    "ui.word.guides": "Guides",
+    "ui.word.pinned": "Pinned",
+    "ui.phrase.no-results": "No results",
+    "ui.phrase.back-to-guides": "Back to Guides",
     "ui.phrase.back-to-import": "Back to Import",
     "ui.phrase.gradient-colors": "Gradient Colors",
     "ui.phrase.main-color": "Main Color",
@@ -111,6 +117,9 @@
     "ui.text.search-title-3": "API",
     "ui.text.search-body-3": "Wuthery does not provide public API at the moment. This will definitely change in the future, but for now, we are focusing on the website.",
     "ui.text.search-disabled": "Player search is temporarily unavailable.",
+    "ui.text.guides-desc": "Guides on how to use Wuthery and our services.",
+    "ui.text.no-guides-found": "No guides found for your search query.",
+    "ui.text.search-for-guides": "Search for guides",
     "ui.banner-type.1": "Featured Resonator",
     "ui.banner-type.2": "Featured Weapon",
     "ui.banner-type.3": "Standard Resonator",
@@ -129,5 +138,7 @@
     "meta.import.title": "Data Import - Wuthery",
     "meta.import.description": "Import your data on Wuthery to view your profile, characters, weapons, and more.",
     "meta.character.title": "Import character - Wuthery",
-    "meta.character.description": "View your imported characters and create beautiful cards to share with your friends."
+    "meta.character.description": "View your imported characters and create beautiful cards to share with your friends.",
+    "meta.guides.title": "Guides - Wuthery",
+    "meta.guides.description": "Read guides and tutorials on how to use Wuthery and our services."
 }
