@@ -117,9 +117,9 @@
     "ui.text.search-title-3": "API",
     "ui.text.search-body-3": "Наразі Wuthery не надає публічного API. Це, безумовно, зміниться в майбутньому, але зараз ми зосереджуємося на вебсайт.",
     "ui.text.search-disabled": "Пошук гравців тимчасово не доступний.",
-    "ui.text.guides-desc": "Посібники з використання Wuthery та наших сервісів.",
-    "ui.text.no-guides-found": "Посібників за вашим запитом не знайдено.",
-    "ui.text.search-for-guides": "Пошук посібника",
+    "ui.text.guides-desc": "Гайди по використанню Wuthery та наших сервісів.",
+    "ui.text.no-guides-found": "Гайдів за вашим запитом не знайдено.",
+    "ui.text.search-for-guides": "Пошук посібників",
     "ui.banner-type.1": "Рекомендований резонатор",
     "ui.banner-type.2": "Рекомендована зброя",
     "ui.banner-type.3": "Стандартний резонатор",
@@ -139,6 +139,6 @@
     "meta.import.description": "Імпортуйте свої дані на Wuthery, щоб переглянути свій профіль, персонажів, зброю тощо.",
     "meta.character.title": "Wuthery - Імпортований персонаж",
     "meta.character.description": "Переглядайте імпортованих персонажів та створюйте красиві картки, щоб ділитись ними з друзями.",
-    "meta.guides.title": "Посібник - Wuthery",
-    "meta.guides.description": "Ознайомтеся з посібниками та інструкціями щодо використання Wuthery і наших сервісів."
+    "meta.guides.title": "Посібники - Wuthery",
+    "meta.guides.description": "Ознайомтеся з гайдами та інструкціями щодо використання Wuthery і наших сервісів."
 }
